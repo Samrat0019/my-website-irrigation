@@ -1,0 +1,13 @@
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+ 
+.price-table thead th {
+  background-color: var(--color-canopy);
+  color: #ffffff;
+}
+ 
+.price-table tbody tr:nth-child(even) {
+  background-color: var(--color-mist);
+}

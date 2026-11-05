@@ -1,0 +1,196 @@
+body {
+    background-image: url('sugarcane.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+header {
+    background-color: rgba(25, 111, 25, 0.9);
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+    color:white;
+}
+
+h1 {
+    background-color: green;
+    text-align:center;
+    font-family: Georgia, "Times New Roman", serif;
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+h3 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 8px;
+}
+
+
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    padding: 18px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #176b25;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 8px;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #176b25;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+main {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.92);
+    border-radius: 15px;
+     box-shadow: 
+        0px 0px 20px 0px rgba(0, 0, 0, 0.693),
+        0px 10px 30px 0px rgba(0, 0, 0, 0.697); 
+}
+
+main p {
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+#goal {
+    color: white;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(25, 111, 25);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 8px;
+        
+}
+
+main div {
+    background-color: rgba(232, 245, 233, 0.95);
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 6px solid #2e7d32;
+    border-radius: 8px;
+}
+
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: #176b25;
+    margin: 0;
+}
+
+
+strong {
+    color: #176b25;
+}
+
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+footer {
+    background-color: rgba(25, 111, 25, 0.9);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.content {
+    background-color: white;
+    color: green;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 8px; /* Added top/bottom margin so the shadow doesn't clip */
+    border: 1px solid #426b49;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* Stronger, layered shadow designed to cut through background images */
+    box-shadow: 
+        0px 0px 20px 0px rgba(0, 0, 0, 0.693),
+        0px 10px 30px 0px rgba(0, 0, 0, 0.697); 
+}
+.offer-box {
+  background-color: #e8f5e9;
+  color: #176b25;
+  border: 2px solid #2e7d32;
+  font-size: 20px;
+  font-weight: bold;
+  animation: glowEffect 1.5s infinite alternate;
+}
+ 
+@keyframes glowEffect {
+from { 
+    box-shadow: 0 0 5px #176b25; text-shadow: 0 0 2px #176b25; 
+}
+to{
+     box-shadow: 0 0 20px #2e7d32; text-shadow: 0 0 8px #2e7d32; 
+    }
+}
+
+.gallery-img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+}
+ 
+footer {
+  background-color: rgba(25, 111, 25, 0.9);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farmer Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Smart Irrigation Advisory Web Portal</h1>
+<p><a href="tasks.html">&larr; Tasks 1 to 5</a></p>
+<div class="card" id="t6">
+    <h2>Task 6: Farmer Registration / Irrigation Request</h2>
+    <form id="irrigationForm" novalidate>
+      <fieldset>
+        <legend>Farmer &amp; Farm Details</legend>
+        <label for="farmerName">Farmer Name</label>
+        <input type="text" id="farmerName" placeholder="e.g. Ramesh Patil"><span class="error" id="farmerNameError"></span>
+
+        <label for="mobile">Mobile Number</label>
+        <input type="text" id="mobile" placeholder="10 digit number"><span class="error" id="mobileError"></span>
+
+        <label for="plotId">Plot ID</label>
+        <input type="text" id="plotId" placeholder="AGR-1234"><span class="error" id="plotIdError"></span>
+
+        <label for="moisture">Soil Moisture (%)</label>
+        <input type="number" id="moisture" placeholder="0 - 100"><span class="error" id="moistureError"></span>
+
+        <label for="cropStage">Crop Stage</label>
+        <select id="cropStage">
+          <option value="">-- Select --</option>
+          <option value="Germination">Germination</option>
+          <option value="Tillering">Tillering</option>
+          <option value="Grand Growth">Grand Growth</option>
+          <option value="Maturity">Maturity</option>
+          <option value="Harvesting">Harvesting</option>
+        </select><span class="error" id="cropStageError"></span>
+
+        <label for="irrigationDate">Irrigation Date</label>
+        <input type="date" id="irrigationDate"><span class="error" id="irrigationDateError"></span>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    <div id="successMsg"></div>
+  </div>
+</div>
+<script src="../js/form.js"></script>
+</body>
+</html>

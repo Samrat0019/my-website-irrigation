@@ -1,0 +1,15 @@
+.styled-form input:focus, .styled-form select:focus {
+  outline: none;
+  border-color: var(--color-water);
+  box-shadow: 0 0 0 3px rgba(15, 110, 140, 0.18);
+}
+ 
+.styled-form input[type="submit"] {
+  background-color: var(--color-canopy);
+  color: #ffffff;
+  border-radius: 6px;
+}
+ 
+.styled-form input[type="submit"]:hover {
+  background-color: var(--color-leaf);
+}
